@@ -3,7 +3,7 @@ package org.maxsoft.reserve;
 /**
  * ×Ö·û´®·­×ª¡¢²éÑ¯
  * @author zhaoyl
- * @date May 1, 2016
+ * @date May 1, 2014
  */
 public class StringReserve {
 	

@@ -3,7 +3,7 @@ package org.maxsoft.sort;
 /**
  * —°‘Ò≈≈–Ú
  * @author zhaoyl
- * @date May 1, 2016
+ * @date May 1, 2014
  */
 public class SelectSort {
 

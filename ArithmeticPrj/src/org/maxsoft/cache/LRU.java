@@ -3,7 +3,7 @@ package org.maxsoft.cache;
 /**
  * 最近最少使用算法 OR 页面置换算法之一
  * @author zhaoyl
- * @date May 1, 2016
+ * @date May 1, 2014
  */
 public class LRU {
 	

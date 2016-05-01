@@ -3,7 +3,7 @@ package org.maxsoft.sort;
 /**
  * ¿ìËÙÅÅĞò
  * @author zhaoyl
- * @date May 1, 2016
+ * @date May 1, 2014
  */
 public class QuickSort {
 	
