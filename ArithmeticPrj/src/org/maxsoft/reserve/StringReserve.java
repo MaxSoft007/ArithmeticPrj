@@ -120,5 +120,6 @@ public class StringReserve {
 		
 		int indexOfString = reserve.indexOfString2("ABCDEF","G");
 		System.out.println(indexOfString);
+		
 	}
 }
