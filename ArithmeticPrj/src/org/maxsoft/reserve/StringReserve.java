@@ -78,6 +78,32 @@ public class StringReserve {
 		return index;
 	}
 	
+	/**
+	 * 字符串查找与匹配2
+	 * @param des
+	 * @param sur
+	 * @return
+	 */
+	public int indexOfString2(String des,String sur){
+		char[] charArray = des.toCharArray();
+		char[] charArray2 = sur.toCharArray();
+		int index=-1;
+		for (int i = 0; i < charArray.length; i++) {
+			for(int j=0;j<charArray2.length; j++){
+				if(charArray2[j]==charArray[i]){
+					if(j==charArray2.length-1){
+						index = i-charArray2.length+1;
+						break;
+					}
+					i++;
+				}else{
+					break;
+				}
+			}
+		}
+		return index;
+	}
+	
 	public static void main(String[] args){
 		StringReserve reserve = new StringReserve();
 		String str = "ABCD";
@@ -92,7 +118,7 @@ public class StringReserve {
 		System.out.println(indexOfReserve);
 		System.out.println(string_2.getBytes().length);//GBK编码 一个汉字占2个字节
 		
-		int indexOfString = reserve.indexOfString("ABCDEF","DE");
+		int indexOfString = reserve.indexOfString2("ABCDEF","G");
 		System.out.println(indexOfString);
 	}
 }
