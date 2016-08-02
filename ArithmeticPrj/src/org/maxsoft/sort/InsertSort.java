@@ -24,6 +24,10 @@ public class InsertSort {
 		}
 	}
 	
+	/**
+	 * ≤Â»Î≈≈–Ú2
+	 * @param a
+	 */
 	public void insertSort2(int[] a){
 		int size = a.length;
 	    for (int i=0; i<size; i++){
